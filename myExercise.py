@@ -21,4 +21,4 @@ for name in namesList:
     try:
         print("Name: {}, University: {},{} ".format(name, student_dict[name][0], student_dict[name][1]))
     except:
-        print("No record of {} was found".format(name))
+        print("No record of '{}' was found".format(name))
